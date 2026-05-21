@@ -1,0 +1,68 @@
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+**/pom.xml.tag
+**/pom.xml.releaseBackup
+**/pom.xml.versionsBackup
+**/pom.xml.next
+**/release.properties
+**/dependency-reduced-pom.xml
+**/buildNumber.properties
+**/ .mvn/timing.properties
+
+# Eclipse
+.settings/
+.metadata/
+*.tmp
+*.bak
+*.swp
+*~.nib
+.localhistory/
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea/
+out/
+
+# NetBeans
+nbproject/private/
+build/
+dist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+*.zip
+*.tar.gz
+*.rar
+
+# Generated sources
+generated-sources/
+generated-test-sources/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# SLF4J and runtime
+log/
