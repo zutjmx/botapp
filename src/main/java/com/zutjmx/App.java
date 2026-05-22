@@ -13,6 +13,8 @@ public class App
     public static void main( String[] args ) throws TelegramApiException
     {
         TelegramBotsApi botsApi = new TelegramBotsApi(DefaultBotSession.class);
-        botsApi.registerBot(new Bot());
+        Bot bot = new Bot();
+        botsApi.registerBot(bot);
+        bot.sendText(1504284708L, "Hello world!");
     }
 }
